@@ -20,7 +20,7 @@ namespace WebFormsApplication
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             string firstName = txtFirstName.Text;
-            ltMessage.Text = $"Your Message has been received. Thanks for your inquiry, {firstName}";
+            ltMessage.Text = $"Thank you {firstName}, you'll be contacted by a member of our support team";
         }
     }
 }
